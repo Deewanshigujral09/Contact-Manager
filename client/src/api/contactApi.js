@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/contacts';
+const API_URL = 'https://contact-manager-9fv9.onrender.com/api/contacts';
 
 const getAuthToken = () => {
   return localStorage.getItem('token');
