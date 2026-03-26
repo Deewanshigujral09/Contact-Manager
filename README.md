@@ -277,10 +277,6 @@ npm run lint   # Run ESLint
 - Email/SMS integration
 - Contact sharing
 
-## License
-
-MIT
-
 ## Author
 
-Built with MERN Stack
+Deewanshi Gujral, Built with MERN Stack
