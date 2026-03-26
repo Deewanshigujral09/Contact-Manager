@@ -70,25 +70,26 @@ contact-management/
 │   ├── server.js          # Entry point
 │   └── package.json
 │
-└── src/                   # Frontend
-    ├── api/
-    │   ├── authApi.js
-    │   └── contactApi.js
-    ├── context/
-    │   ├── AuthContext.jsx
-    │   └── ContactContext.jsx
-    ├── components/
-    │   ├── Avatar.jsx
-    │   ├── ContactCard.jsx
-    │   ├── ContactModal.jsx
-    │   ├── ContactDetail.jsx
-    │   └── Toast.jsx
-    ├── pages/
-    │   ├── AuthPage.jsx
-    │   └── Dashboard.jsx
-    ├── App.tsx
-    ├── main.tsx
-    └── index.css
+└── client/                 # Frontend
+    └── src/                  
+          ├── api/
+          │   ├── authApi.js
+          │   └── contactApi.js
+          ├── context/
+          │   ├── AuthContext.jsx
+          │   └── ContactContext.jsx
+          ├── components/
+          │   ├── Avatar.jsx
+          │   ├── ContactCard.jsx
+          │   ├── ContactModal.jsx
+          │   ├── ContactDetail.jsx
+          │   └── Toast.jsx
+          ├── pages/
+          │   ├── AuthPage.jsx
+          │   └── Dashboard.jsx
+          ├── App.tsx
+          ├── main.tsx
+          └── index.css
 ```
 
 ## Prerequisites
@@ -145,6 +146,8 @@ npm run dev
 ```bash
 # Navigate to project root (if in server directory)
 cd ..
+
+cd client
 
 # Install dependencies
 npm install
